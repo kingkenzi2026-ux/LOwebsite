@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lash Owt — Premium Eyelash Extensions & Beauty | Brisbane, Gold Coast, Sunshine Coast</title>
+  <meta name="description" content="Lash Owt offers luxurious eyelash extensions, lifts, brows and more. In-salon and mobile services in Brisbane, Gold Coast & Sunshine Coast. Book your glow-up today!"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #fffaf0;
+      --pink-soft: #ffebee;
+      --pink-light: #ffc1cc;
+      --pink-med: #f8bbd0;
+      --pink-accent: #ec407a;
+      --text: #4a2c3f;
+      --text-light: #6b4a5c;
+      --white: #ffffff;
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Poppins', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to bottom, var(--pink-soft), var(--bg));
+      padding: 2rem 1rem;
+      text-align: center;
+      border-bottom: 1px solid var(--pink-light);
+    }
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.2rem;
+      color: var(--pink-accent);
+      margin-bottom: 0.5rem;
+    }
+    .tagline { font-size: 1.3rem; color: var(--text-light); font-weight: 300; }
+    nav {
+      background: var(--white);
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    nav a {
+      color: var(--text);
+      text-decoration: none;
+      margin: 0 1.2rem;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover { color: var(--pink-accent); }
+    section {
+      padding: 4rem 1.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      color: var(--pink-accent);
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+    .hero-img-container {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .services-grid, .pricing-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 1.8rem;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+      transition: transform 0.3s;
+    }
+    .card:hover { transform: translateY(-8px); }
+    .card h3 { color: var(--pink-accent); margin-bottom: 0.8rem; }
+    .price { font-size: 1.5rem; font-weight: 600; color: var(--pink-accent); margin: 0.8rem 0; }
+    .reviews {
+      background: var(--pink-soft);
+      border-radius: 16px;
+      padding: 2rem;
+      margin: 2rem 0;
+    }
+    .review {
+      margin-bottom: 1.8rem;
+      font-style: italic;
+      color: var(--text-light);
+    }
+    .review strong { color: var(--text); font-style: normal; }
+    .cta {
+      text-align: center;
+      margin: 3rem 0;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--pink-accent);
+      color: white;
+      padding: 1rem 2.2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1.1rem;
+      transition: background 0.3s;
+    }
+    .btn:hover { background: #d81b60; }
+    footer {
+      background: var(--pink-med);
+      color: white;
+      text-align: center;
+      padding: 2.5rem 1rem;
+      margin-top: 3rem;
+    }
+    @media (max-width: 768px) {
+      h1 { font-size: 2.6rem; }
+      nav a { margin: 0 0.8rem; font-size: 0.95rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact & Book</a>
+  </nav>
+
+  <header id="home">
+    <h1>Lash Owt</h1>
+    <p class="tagline">Your lashes. Your vibe. Elevated.</p>
+    <p style="margin-top:1rem; color:var(--text-light);">Premium eyelash extensions • lifts • brows • mobile & in-salon • Brisbane • Gold Coast • Sunshine Coast</p>
+  </header>
+
+  <section class="hero-img-container">
+    <!-- Placeholder for hero image: dreamy lash close-up or soft salon vibe -->
+    <img src="https://curacoro.com/cdn/shop/articles/11.15-thumbnail-min.jpg?v=1647847769" alt="Stunning hybrid lash extensions before and after" style="max-width:90%; border-radius:16px; box-shadow:0 10px 30px rgba(0,0,0,0.1);">
+  </section>
+
+  <section id="services">
+    <h2>Our Signature Services</h2>
+    <div class="services-grid">
+      <div class="card">
+        <h3>Classic Lash Extensions</h3>
+        <p>One-on-one natural look — perfect for everyday elegance. Lasts 2–4 weeks with fills.</p>
+        <p><strong>In-salon or Mobile</strong></p>
+      </div>
+      <div class="card">
+        <h3>Hybrid Lash Extensions</h3>
+        <p>Best of both worlds — classic + volume for fuller, fluffier lashes.</p>
+        <p><strong>Most popular!</strong></p>
+      </div>
+      <div class="card">
+        <h3>Volume / Russian Lashes</h3>
+        <p>Ultra-dramatic, luxurious fans — 3D–6D for bold glam.</p>
+      </div>
+      <div class="card">
+        <h3>Lash Lift + Tint</h3>
+        <p>Natural lift & darker tint — no extensions needed. 6–8 weeks.</p>
+      </div>
+      <div class="card">
+        <h3>Brow Lamination + Tint</h3>
+        <p>Fluffy, sculpted brows that stay in place.</p>
+      </div>
+      <div class="card">
+        <h3>Henna Brows</h3>
+        <p>Stain + shape for fuller-looking brows.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" style="background:var(--pink-soft);">
+    <h2>Pricing</h2>
+    <div class="pricing-grid">
+      <div class="card">
+        <h3>Full Set – Classic</h3>
+        <p class="price">$140</p>
+        <p>2–2.5 hours</p>
+      </div>
+      <div class="card">
+        <h3>Full Set – Hybrid</h3>
+        <p class="price">$160</p>
+        <p>2.5 hours</p>
+      </div>
+      <div class="card">
+        <h3>Full Set – Volume</h3>
+        <p class="price">$180–$220</p>
+        <p>Depending on volume</p>
+      </div>
+      <div class="card">
+        <h3>2-Week Lash Fill</h3>
+        <p class="price">$80–$110</p>
+        <p>Up to 90 mins</p>
+      </div>
+      <div class="card">
+        <h3>Lash Lift + Tint</h3>
+        <p class="price">$95</p>
+      </div>
+      <div class="card">
+        <h3>Brow Lamination + Tint</h3>
+        <p class="price">$110</p>
+      </div>
+      <div class="card">
+        <h3>Mobile Service Fee</h3>
+        <p class="price">+$30–$60</p>
+        <p>Depending on location</p>
+      </div>
+    </div>
+    <p style="text-align:center; margin-top:2rem; font-style:italic;">All prices in AUD. Patch test required for new clients. Gift vouchers available!</p>
+  </section>
+
+  <section id="reviews">
+    <h2>What Our Clients Say</h2>
+    <div class="reviews">
+      <div class="review">
+        <strong>⭐⭐⭐⭐⭐ Sarah M. – Brisbane</strong><br>
+        “Best lashes I’ve ever had! The hybrid set looks so natural yet glamorous. Mobile service was such a treat.”
+      </div>
+      <div class="review">
+        <strong>⭐⭐⭐⭐⭐ Emily R. – Gold Coast</strong><br>
+        “Lash Owt transformed my eyes. The salon is like a pink dream — so relaxing. 3-week fill was perfect.”
+      </div>
+      <div class="review">
+        <strong>⭐⭐⭐⭐⭐ Jess T. – Sunshine Coast</strong><br>
+        “Mobile lash lift was a game changer for my wedding prep. Super gentle and the results lasted ages!”
+      </div>
+      <div class="review">
+        <strong>⭐⭐⭐⭐⭐ Mia L.</strong><br>
+        “Obsessed with my volume set. The girls are so talented and the whole vibe is feminine & luxe.”
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get in Touch & Book</h2>
+    <p style="text-align:center; font-size:1.2rem; margin-bottom:1.5rem;">
+      We’d love to help you feel your most beautiful self.<br>
+      Serving Brisbane, Gold Coast & Sunshine Coast — in-salon & mobile.
+    </p>
+
+    <div style="text-align:center; margin:2rem 0;">
+      <p><strong>Email:</strong> hello@lashowt.com</p>
+      <p><strong>Phone / Text:</strong> 0423 456 789</p>
+      <p><strong>Instagram:</strong> @lashowt</p>
+    </div>
+
+    <div class="cta">
+      <a href="https://www.instagram.com/" class="btn" target="_blank">DM us on Instagram to Book</a>
+      <p style="margin-top:1.5rem; font-size:0.95rem; color:var(--text-light);">
+        (For fastest booking, message us directly — we reply within hours!)
+      </p>
+    </div>
+
+    <p style="text-align:center; margin-top:3rem; font-size:0.95rem; color:var(--text-light);">
+      Note: This is a static showcase site. In a real version we'd add a booking calendar, client login, and online payments.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2026 Lash Owt — All rights reserved.</p>
+    <p style="margin-top:0.5rem;">Pampering lashes across SEQ with love ♡</p>
+  </footer>
+
+</body>
+</html>
